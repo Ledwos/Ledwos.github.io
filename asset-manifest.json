@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/ledwos.github.io/static/css/main.a617e044.chunk.css",
-    "main.js": "/ledwos.github.io/static/js/main.af7b51a8.chunk.js",
-    "main.js.map": "/ledwos.github.io/static/js/main.af7b51a8.chunk.js.map",
-    "runtime-main.js": "/ledwos.github.io/static/js/runtime-main.b0c9a8b3.js",
-    "runtime-main.js.map": "/ledwos.github.io/static/js/runtime-main.b0c9a8b3.js.map",
-    "static/js/2.efee0755.chunk.js": "/ledwos.github.io/static/js/2.efee0755.chunk.js",
-    "static/js/2.efee0755.chunk.js.map": "/ledwos.github.io/static/js/2.efee0755.chunk.js.map",
-    "static/js/3.388b6b1f.chunk.js": "/ledwos.github.io/static/js/3.388b6b1f.chunk.js",
-    "static/js/3.388b6b1f.chunk.js.map": "/ledwos.github.io/static/js/3.388b6b1f.chunk.js.map",
-    "index.html": "/ledwos.github.io/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/ledwos.github.io/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.efee0755.chunk.js.LICENSE.txt": "/ledwos.github.io/static/js/2.efee0755.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/ledwos.github.io/static/media/logo.6ce24c58.svg"
+    "main.css": "/static/css/main.a617e044.chunk.css",
+    "main.js": "/static/js/main.af7b51a8.chunk.js",
+    "main.js.map": "/static/js/main.af7b51a8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.bb34a5f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.bb34a5f6.js.map",
+    "static/js/2.efee0755.chunk.js": "/static/js/2.efee0755.chunk.js",
+    "static/js/2.efee0755.chunk.js.map": "/static/js/2.efee0755.chunk.js.map",
+    "static/js/3.388b6b1f.chunk.js": "/static/js/3.388b6b1f.chunk.js",
+    "static/js/3.388b6b1f.chunk.js.map": "/static/js/3.388b6b1f.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.efee0755.chunk.js.LICENSE.txt": "/static/js/2.efee0755.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b0c9a8b3.js",
+    "static/js/runtime-main.bb34a5f6.js",
     "static/js/2.efee0755.chunk.js",
     "static/css/main.a617e044.chunk.css",
     "static/js/main.af7b51a8.chunk.js"
