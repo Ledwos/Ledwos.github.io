@@ -1,0 +1,17 @@
+
+.portfolio-section {
+    border: 2px solid red;
+    height: 90vh;
+}
+
+.portfolio-comingSoon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.portfolio-comingSoon > span {
+    rotate: -33deg;
+    font-size: 7vw;
+}
