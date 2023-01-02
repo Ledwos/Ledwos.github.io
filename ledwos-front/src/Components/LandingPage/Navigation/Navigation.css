@@ -1,0 +1,74 @@
+.OrangeNav, .PinkNav, .BlueNav {
+    clip-path: polygon(100% 0, 0 100%, 100% 100%);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    overflow: inherit;
+}
+
+.NavItem {
+    font-family: Brandish;
+    font-size: 4vh;
+    color: white;
+}
+
+.NavItem:hover {
+    transition: .1s ease-in-out;
+    transform: scale(1.5);
+    color: rgb(254,102,102);
+    cursor: pointer;
+}
+
+.LogoLink {
+    margin-left: 15%;
+}
+
+.LogoItem {
+    height: 7vh;
+}
+
+.LogoItem:hover, .NavItem:hover  {
+    filter: invert(100%);
+    cursor: pointer;
+}
+
+.OrangeNav {
+background-color: rgb(252,159,68);
+height: 48vh;
+width: 86.4vh;
+
+}
+
+.PinkNav {
+background-color: rgb(254,102,102);
+height: 38.4vh;
+width: 69.12vh;
+}
+
+.BlueNav {
+background-color: rgb(68,155,252);
+height: 28.8vh;
+width: 51.84vh;
+}
+
+.NavBarO {
+    position: relative;
+    top: 39%;
+    left: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    transform: rotate(-29deg);
+}
+  
+.NavBarP {
+position: relative;
+top: 53%;
+left: 0%;
+display: flex;
+flex-direction: row;
+justify-content: center;
+transform: rotate(-29deg);
+margin-right: 10%;
+margin-top: 3%
+}

@@ -1,17 +1,55 @@
+/* import font */
+@import url(//db.onlinewebfonts.com/c/0ea616b3e04eaacd28bc61964b5e5bfd?family=Brandish);
 
 .portfolio-section {
     border: 2px solid red;
-    height: 90vh;
+    height: 100vh;
+    overflow: hidden;
 }
 
 .portfolio-comingSoon {
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
 }
 
 .portfolio-comingSoon > span {
     rotate: -33deg;
     font-size: 7vw;
 }
+
+.NameBox {
+    position: absolute;
+    transform: rotate(-29deg);
+  }
+
+.Name {
+    font-family: Brandish;
+    font-size: 19vw;
+    margin: 0% 0% -11% 19%;
+    color: rgb(252,159,68);
+    -webkit-animation: slide-left 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-left 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    
+  }
+
+  @-webkit-keyframes slide-left {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(-8%);
+              transform: translateX(-8%);
+    }
+  }
+  @keyframes slide-left {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(-8%);
+              transform: translateX(-8%);
+    }
+  }
