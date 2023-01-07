@@ -18,6 +18,11 @@
     font-size: 7vw;
 }
 
+.portfolio-header {
+  font-family: Brandish;
+  color: rgb(252,159,68);
+}
+
 .NameBox {
     position: absolute;
     transform: rotate(-29deg);
