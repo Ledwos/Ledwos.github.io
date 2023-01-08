@@ -53,11 +53,11 @@ width: 51.84vh;
 
 .NavBarO {
     position: relative;
-    top: 39%;
-    left: 8%;
+    top: 48%;
+    left: 6%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     transform: rotate(-29deg);
 }
   

@@ -1,27 +1,17 @@
 import React from 'react';
+import LandingPageName from '../Common/LandingPageName';
 import Navigation from './Navigation/Navigation';
 
 const LandingPage: React.FunctionComponent = () => {
-  const name = (
-    <div className='NameBox'>
-      <p className='Name'>Dan</p>
-      <p className='Name'>Ledwos</p>
-    </div>
-  );
-
-  const slideIntoViewComingSoon = () => {
+  const scrollToSection = (section: string) => {
     document
-      .querySelector('.portfolio-comingSoon')
+      .querySelector(`.${section}`)
       .scrollIntoView({ behavior: 'smooth' });
   };
   return (
     <div className='portfolio-landingPage portfolio-section'>
-      {name}
-      <Navigation
-        aScroll={slideIntoViewComingSoon}
-        pScroll={slideIntoViewComingSoon}
-        cScroll={slideIntoViewComingSoon}
-      />
+      <LandingPageName />
+      <Navigation scrollToSection={scrollToSection} />
     </div>
   );
 };

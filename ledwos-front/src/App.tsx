@@ -5,11 +5,13 @@ import ComingSoon from './Components/ComingSoon';
 // import TestZone from './Components/TestZone';
 import Career from './Components/Career/Career';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import About from './Components/About/About';
 
 function App() {
   return (
     <div className='App'>
       <LandingPage />
+      <About />
       <Career />
       <ComingSoon />
       {/* <TestZone /> */}
