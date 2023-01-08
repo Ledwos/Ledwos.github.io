@@ -3,7 +3,7 @@ export type CareerSection =
   | 'futureproof'
   | 'cognizant'
   | 'ubsconfluence'
-  | 'next';
+  | 'nextsteps';
 
 export interface PopupData {
   code: CareerSection;
@@ -57,9 +57,9 @@ export const popupData: PopupData[] = [
     ],
   },
   {
-    code: 'next',
+    code: 'nextsteps',
     name: 'The Future!',
-    info: 'You tell me',
+    info: 'If you think you have an interesting role for me, get in touch!',
     techStack: [],
   },
 ];

@@ -75,12 +75,16 @@ const CareerMap: React.FunctionComponent<CareerMapProps> = ({
           className='careerNext'
         >
           <path
+            data-point={'nextsteps'}
+            onClick={(e: any) => displayPopup(e.target.dataset.point)}
             d='M497.13678,79.76188c9.13802,22.84504,25.91034,48.93645,43.74962,66.77574'
             transform='translate(1.409662 0)'
             stroke='#ff0014'
             strokeWidth='20'
           />
           <path
+            data-point={'nextsteps'}
+            onClick={(e: any) => displayPopup(e.target.dataset.point)}
             d='M474.11066,141.93239c29.53308-4.92218,48.45702-20.82568,69.07835-41.44701'
             transform='matrix(.989678 0.143307-.143307 0.989678 29.460437-82.075432)'
             stroke='#ff0014'

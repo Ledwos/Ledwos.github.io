@@ -14,13 +14,16 @@ const Career: React.FunctionComponent = () => {
   };
 
   return (
-    <div className='portfolio-section portfolio-career'>
+    <div className='portfolio-section portfolio-career position-relative'>
       <CareerPopup
         handleClose={displayPopup}
         show={show}
         section={popupSection}
       />
       <SectionHeader>Career</SectionHeader>
+      <div className='position-absolute mt-5 ms-5 careerInfoText'>
+        Click on each point to learn more!
+      </div>
       <CareerMap displayPopup={displayPopup} />
     </div>
   );
