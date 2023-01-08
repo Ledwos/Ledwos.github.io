@@ -1,7 +1,14 @@
 import React from 'react';
+import { CareerSection } from '.';
 import './Career.css';
 
-const CareerMap: React.FunctionComponent = () => {
+interface CareerMapProps {
+  displayPopup: (name?: CareerSection) => void;
+}
+
+const CareerMap: React.FunctionComponent<CareerMapProps> = ({
+  displayPopup,
+}: CareerMapProps) => {
   return (
     <div className='d-flex align-items-center justify-content-center'>
       <svg
@@ -10,9 +17,8 @@ const CareerMap: React.FunctionComponent = () => {
         xmlns='http://www.w3.org/2000/svg'
         xmlnsXlink='http://www.w3.org/1999/xlink'
         viewBox='0 0 1920 1080'
-        shape-rendering='geometricPrecision'
-        text-rendering='geometricPrecision'
-        width={'auto'}
+        shapeRendering='geometricPrecision'
+        textRendering='geometricPrecision'
         height={'90vh'}
       >
         <path
@@ -21,8 +27,8 @@ const CareerMap: React.FunctionComponent = () => {
           transform='translate(0 0.000001)'
           fill='none'
           stroke='#3f5787'
-          stroke-width='24'
-          stroke-dasharray='50'
+          strokeWidth='24'
+          strokeDasharray='50'
         />
         <ellipse
           className='careerPoint'
@@ -30,9 +36,9 @@ const CareerMap: React.FunctionComponent = () => {
           ry='45.476582'
           transform='matrix(1.120251 0 0 1.120251 112.811062 991.596125)'
           fill='#d2dbed'
-          stroke-width='0'
-          data-careerPoint={'university'}
-          onClick={(e: any) => console.log(e.target.dataset.careerPoint)}
+          strokeWidth='0'
+          data-point={'university'}
+          onClick={(e: any) => displayPopup(e.target.dataset.point)}
         />
         <ellipse
           className='careerPoint'
@@ -40,8 +46,9 @@ const CareerMap: React.FunctionComponent = () => {
           ry='45.476582'
           transform='matrix(1.120251 0 0 1.120251 595.241248 875.25509)'
           fill='#d2dbed'
-          stroke-width='0'
-          data-careerPoint={'futureproof'}
+          strokeWidth='0'
+          data-point={'futureproof'}
+          onClick={(e: any) => displayPopup(e.target.dataset.point)}
         />
         <ellipse
           className='careerPoint'
@@ -49,8 +56,9 @@ const CareerMap: React.FunctionComponent = () => {
           ry='45.476582'
           transform='matrix(1.120251 0 0 1.120251 931.119952 553.2046)'
           fill='#d2dbed'
-          stroke-width='0'
-          data-careerPoint={'cognizant'}
+          strokeWidth='0'
+          data-point={'cognizant'}
+          onClick={(e: any) => displayPopup(e.target.dataset.point)}
         />
         <ellipse
           className='careerPoint'
@@ -58,8 +66,9 @@ const CareerMap: React.FunctionComponent = () => {
           ry='45.476582'
           transform='matrix(1.120251 0 0 1.120251 1289.537831 251.431636)'
           fill='#d2dbed'
-          stroke-width='0'
-          data-careerPoint={'ubsconfluence'}
+          strokeWidth='0'
+          data-point={'ubsconfluence'}
+          onClick={(e: any) => displayPopup(e.target.dataset.point)}
         />
         <g
           transform='matrix(-1.890788 0.342495-.356284-1.966912 2820.390899 393.741506)'
@@ -69,13 +78,13 @@ const CareerMap: React.FunctionComponent = () => {
             d='M497.13678,79.76188c9.13802,22.84504,25.91034,48.93645,43.74962,66.77574'
             transform='translate(1.409662 0)'
             stroke='#ff0014'
-            stroke-width='20'
+            strokeWidth='20'
           />
           <path
             d='M474.11066,141.93239c29.53308-4.92218,48.45702-20.82568,69.07835-41.44701'
             transform='matrix(.989678 0.143307-.143307 0.989678 29.460437-82.075432)'
             stroke='#ff0014'
-            stroke-width='20'
+            strokeWidth='20'
           />
         </g>
       </svg>
