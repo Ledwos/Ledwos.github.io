@@ -1,0 +1,26 @@
+.careerPath {
+    stroke-dashoffset: 1000;
+    animation: dash 10s linear infinite forwards
+}
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+.careerPoint:hover {
+    transition: .1s ease-in-out;
+    fill: rgb(252,159,68);
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.careerNext:hover {
+    cursor: pointer;
+}
+
+.careerInfoText {
+    font-size: 24px;
+}

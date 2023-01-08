@@ -1,0 +1,10 @@
+.testLine {
+    stroke-dashoffset: 1000;
+    animation: dash 10s linear infinite forwards
+}
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+    }
+}

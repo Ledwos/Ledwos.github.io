@@ -4,28 +4,27 @@ import GitLogo from '../../../images/git.png';
 import LiLogo from '../../../images/linkedin.png';
 
 interface NavigationProps {
-  aScroll: () => void;
-  pScroll: () => void;
-  cScroll: () => void;
+  scrollToSection: (section: string) => void;
 }
 
 const Navigation: React.FunctionComponent<NavigationProps> = ({
-  aScroll,
-  pScroll,
-  cScroll,
+  scrollToSection,
 }: NavigationProps) => {
   return (
     <>
       <div className='OrangeNav'>
         <div className='NavBarO'>
-          <p className='NavItem' onClick={aScroll}>
+          <p
+            className='NavItem'
+            onClick={() => scrollToSection('portfolio-about')}
+          >
             About
           </p>
-          <p className='NavItem' onClick={pScroll}>
-            Projects
-          </p>
-          <p className='NavItem' onClick={cScroll}>
-            Contact
+          <p
+            className='NavItem'
+            onClick={() => scrollToSection('portfolio-career')}
+          >
+            Career
           </p>
         </div>
       </div>

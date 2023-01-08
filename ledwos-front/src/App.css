@@ -2,7 +2,6 @@
 @import url(//db.onlinewebfonts.com/c/0ea616b3e04eaacd28bc61964b5e5bfd?family=Brandish);
 
 .portfolio-section {
-    border: 2px solid red;
     height: 100vh;
     overflow: hidden;
 }
@@ -18,16 +17,14 @@
     font-size: 7vw;
 }
 
-.NameBox {
-    position: absolute;
-    transform: rotate(-29deg);
-  }
+.portfolio-header {
+  font-family: Brandish;
+  color: rgb(252,159,68);
+}
 
-.Name {
-    font-family: Brandish;
-    font-size: 19vw;
-    margin: 0% 0% -11% 19%;
-    color: rgb(252,159,68);
+  .Name {
+    position: absolute;
+    margin: -4% 0% 0% 19%;
     -webkit-animation: slide-left 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: slide-left 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     
@@ -35,21 +32,33 @@
 
   @-webkit-keyframes slide-left {
     0% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
+      -webkit-transform: translate(0, 0) rotate(-29deg);
+              transform: translate(0, 0) rotate(-29deg);
     }
     100% {
-      -webkit-transform: translateX(-8%);
-              transform: translateX(-8%);
+      -webkit-transform: translate(-8%, -8%) rotate(-29deg);
+              transform: translate(-8%, 8%) rotate(-29deg);
     }
   }
   @keyframes slide-left {
     0% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
+      -webkit-transform: translate(0, 0) rotate(-29deg);
+              transform: translate(0, 0) rotate(-29deg);
     }
     100% {
-      -webkit-transform: translateX(-8%);
-              transform: translateX(-8%);
+      -webkit-transform: translate(-8%, -8%) rotate(-29deg);
+              transform: translate(-8%, 8%) rotate(-29deg);
     }
+  }
+
+  .ProfileImg {
+    height: max(45vh, 400px);
+    box-shadow: #449afc8f 10px 10px 0px 0px;
+    border: 5px solid #449bfc;
+    border-radius: 20px;
+  }
+
+  .about-text {
+    margin: 1vh 0vh 2.5vh 0vh;
+    font-size: max(3vh, 20px);
   }
