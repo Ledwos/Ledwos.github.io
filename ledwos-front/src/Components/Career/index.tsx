@@ -26,7 +26,7 @@ export const popupData: PopupData[] = [
     techStack: [
       'HMTL',
       'CSS',
-      'JS',
+      'JavaScript',
       'JQuery',
       'Node',
       'React',
@@ -39,13 +39,22 @@ export const popupData: PopupData[] = [
     code: 'cognizant',
     name: 'Cognizant - Unilever',
     info: "Consultant based position. Developed React frontend for Unilever application with the aim of streamlining in house services for an improved 'product development' process.",
-    techStack: ['JS', 'React', 'HTML', 'CSS'],
+    techStack: ['JavaScript', 'React', 'HTML', 'CSS'],
   },
   {
     code: 'ubsconfluence',
     name: 'UBS / Confluence - Delta',
     info: 'Developing UBS Delta successor; an award winning portfolio analysis and risk management system',
-    techStack: ['JS', 'React', 'HTML', 'CSS', 'C#', '.Net', 'Protobuf', 'gRPC'],
+    techStack: [
+      'TypeScript',
+      'React',
+      'HTML',
+      'CSS',
+      'C#',
+      '.Net',
+      'Protobuf',
+      'gRPC',
+    ],
   },
   {
     code: 'next',
